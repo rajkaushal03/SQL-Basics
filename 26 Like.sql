@@ -32,3 +32,7 @@ WHERE conditions LIKE 'DIAB1%' OR conditions LIKE '% DIAB1%'
 -- | 3          | Bob          | DIAB100 MYOP |
 -- | 4          | George       | ACNE DIAB100 |
 -- +------------+--------------+--------------+
+<<<<<<< HEAD
+=======
+
+>>>>>>> bede4cd4c17ef58db2397c282d64fe77a364da6b
