@@ -26,5 +26,8 @@ WHERE conditions LIKE 'DIAB1%' OR conditions LIKE '% DIAB1%'
 -- | patient_id | patient_name | conditions   |
 -- +------------+--------------+--------------+
 -- | 3          | Bob          | DIAB100 MYOP |
--- | 4          | George       | ACNE DIAB100 | 
+-- | 4          | George       | ACNE DIAB100 |
 -- +------------+--------------+--------------+
+
+
+leetcode is done ash have ha
