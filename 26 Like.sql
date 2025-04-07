@@ -29,5 +29,3 @@ WHERE conditions LIKE 'DIAB1%' OR conditions LIKE '% DIAB1%'
 -- | 4          | George       | ACNE DIAB100 |
 -- +------------+--------------+--------------+
 
-
-leetcode is done ash have ha
