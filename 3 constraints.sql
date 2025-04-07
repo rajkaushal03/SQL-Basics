@@ -1,0 +1,12 @@
+-- Constraints
+-- special condition and rules 
+
+-- NOT NULL 
+COL INT NOT NULL;
+
+-- UNIQUE
+COL INT UNIQUE;
+
+-- PRIMARY KEY (MAKE BOTH NULL AND UNIQUE USED ONLY ONCE)
+
+COL INT PRIMARY KEY;
