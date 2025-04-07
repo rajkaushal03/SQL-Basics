@@ -10,16 +10,16 @@ drop database school;
 
 use school; (tells use to use school database)
 
-CREATE TABLE 
-if not exists teachers 
+CREATE TABLE
+if not exists teachers
 (
     id INT PRIMARY KEY,
     name VARCHAR(50),
     age INT NOT NULL
 );
 
-INSERT INTO teachers (id, name, age) 
-VALUES 
+INSERT INTO teachers (id, name, age)
+VALUES
 (1, 'John Doe', 29),
 (2, 'Jane Smith', 40),
 (3, 'Emily Johnson', 35),
@@ -44,16 +44,9 @@ VALUES
 -- shows the table
 select * from teachers
 
--- create new tble like other table
+-- create new table like other table customers but does not copy and data form it
+-- it just gets the basic schema structure of it
 CREATE TABLE new_table_name LIKE customers;
 
+-- this makes the new table as the name given and also copies the data into it
 CREATE TABLE new_table AS SELECT * FROM customers;
-
-
-
-
-
-
-
-
-

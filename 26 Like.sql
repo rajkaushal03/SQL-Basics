@@ -2,6 +2,10 @@ SELECT *
 FROM your_table
 WHERE condition LIKE 'prefix%';
 
+-- eg to write
+-- select * from users
+-- WHERE mail LIKE 'leetcode.com%' OR mail  LIKE '%@leetcode.com'
+
 -- eg:-
 
 
@@ -28,6 +32,3 @@ WHERE conditions LIKE 'DIAB1%' OR conditions LIKE '% DIAB1%'
 -- | 3          | Bob          | DIAB100 MYOP |
 -- | 4          | George       | ACNE DIAB100 |
 -- +------------+--------------+--------------+
-
-
-leetcode is done ash have ha

@@ -1,12 +1,21 @@
 -- datatypes
 
-int 
+int
 VARCHAR
 char
-float 
+float
 boolean
-date 
-year 
+date
+year
+
+ENUM    -- value of type ('m', 'f').   sex - m or f
+-- CREATE TABLE users (
+--   id INT,
+--   status ENUM('active', 'inactive', 'pending')
+-- );
+-- INSERT INTO users (id, status) VALUES (1, 'active');     -- ✅ Allowed
+-- INSERT INTO users (id, status) VALUES (2, 'blocked');    -- ❌ Error (not in ENUM)
+
 
 signed - when we dont know what will be the value is it +ive or -ive;
 
